@@ -43,3 +43,12 @@ python -m http.server 8000
 ```
 
 - In VS Code you can also use the "Live Server" extension to run this as a site.
+
+## Live (GitHub Pages)
+
+This repo is configured to deploy to GitHub Pages on each push to `main` using GitHub Actions.
+
+After the first push with the workflow:
+- Go to GitHub repo Settings → Pages → Build and deployment
+- Ensure Source is set to "GitHub Actions"
+- The site will publish at: https://IDoRush.github.io/tank_shooter/
