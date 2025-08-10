@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Three-Team Tank Siege</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="hud">
+  <h1>Three-Team Tank Siege</h1>
+      <div class="instructions">
+        <div>
+          <strong>Player 1 (Blue)</strong>
+          <div>Move: W/A/S/D</div>
+          <div>Fire: C</div>
+        </div>
+        <div>
+          <strong>Player 2 (Red)</strong>
+          <div>Move: Arrow Keys</div>
+          <div>Fire: / (Slash)</div>
+        </div>
+        <div>
+          <strong>Player 3 (Green)</strong>
+          <div>Move: I/J/K/L</div>
+          <div>Fire: B</div>
+        </div>
+        <div>
+          - Giant tanks with HP. They respawn after being destroyed.
+        </div>
+        <div>
+          - Random cartoon people roam each side and shoot enemies.
+        </div>
+        <div>
+          - Multiple building types per team. Goal: destroy all enemy buildings. Three territories are divided by dashed lines.
+        </div>
+        <div>Press R to restart after a win.</div>
+      </div>
+    </div>
+    <canvas id="game" width="1000" height="600"></canvas>
+
+    <script src="src/game.js"></script>
+  </body>
+</html>
